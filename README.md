@@ -10,12 +10,12 @@ This R script reads in the raw data provided and does the following tidying:
    with the average of each variable for each activity and each subject.
 
 
-#the tidy variable satisfies the following, making it a tidy data set:
-#*  Each variable forms a column (mean value of each feature vector element 
-#   relating to mean or std)
-#*  Each observation forms a row (observation is a particular subject 
-#   undergoing a certain activity to produce certain readings)
-#*  Each observational unit forms a table
+the tidy variable satisfies the following, making it a tidy data set:
+*  Each variable forms a column (mean value of each feature vector element 
+   relating to mean or std)
+*  Each observation forms a row (observation is a particular subject 
+   undergoing a certain activity to produce certain readings)
+*  Each observational unit forms a table
 
 
 To read the tidy dataset into R use this code:

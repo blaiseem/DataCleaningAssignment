@@ -9,7 +9,7 @@ Feature vector elements (all other variables) range from [-1, 1] and include:
 - A 561-feature vector with time and frequency domain variables. 
 
 ## Data
-Each row in the data contains the subject, activity and feature vector elements.
+Each row in the data contains the subject, activity and feature vector elements. Units are the same as in the original data.
 
 ## Transformations
 To clean up the data the following steps were taken:

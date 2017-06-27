@@ -1,5 +1,7 @@
 This repo explains how all of the scripts work and how they are connected
 
+The dataset should be stored in a folder named Dataset in the working directory. In this folder should be the same folder structure as was provided with the data
+
 This R script reads in the raw data provided and does the following tidying:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for 
